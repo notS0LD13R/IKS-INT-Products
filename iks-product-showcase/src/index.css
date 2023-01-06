@@ -4,3 +4,22 @@
   font-family: "Poppins";
   box-sizing: border-box;
 }
+
+.scroll-top-button {
+  position: fixed;
+  color: white;
+  right: 20px;
+  bottom: 20px;
+  background: black;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  transition: all 0.3s ease;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.scroll-top-button:hover {
+  background-color: white;
+  color: black;
+}

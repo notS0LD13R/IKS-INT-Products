@@ -1,6 +1,6 @@
 .about-container {
   background-color: rgb(24, 40, 51);
-  padding-block: 10px;
+  padding-block: 44px;
   padding-inline: 50px;
   color: white;
   display: flex;
@@ -9,6 +9,10 @@
 }
 
 
+
+.about-content {
+  font-size: 16px;
+}
 .about-header {
   font-size: 48px;
   font-weight: bold;
