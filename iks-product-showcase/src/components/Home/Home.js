@@ -25,7 +25,11 @@ function Home() {
           Explore
         </button>
       </div>
-      <div className="rightside">IMAGE HERE</div>
+      <div className="rightside">
+        <img
+        src="https://steeinstad.nl/wp-content/uploads/2017/08/d2-placeholder-1080px.png"
+        alt="Product IMG"
+      /></div>
     </div>
   );
 }

@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: row;
   height: 100vh;
+  margin-top: 30px;
 }
 .header-text {
   font-size: 48px;
@@ -19,13 +20,18 @@
   align-items: flex-start;
   justify-content: left;
   width: 55%;
+  max-width: 600px;
 }
 
 .rightside {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: left;
+}
+
+.rightside>img{
+  width: 80%;
 }
 
 .home-content {
@@ -65,5 +71,7 @@
   }
   .leftside {
     width: 100%;
+    align-items: center;
   }
+
 }
